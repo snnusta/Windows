@@ -1,4 +1,4 @@
-Get-WmiObject -Class Win32_Product -Filter "Name = 'Gardiyan Worker Metgun v2.5.0'" | ForEach-Object { $_.Uninstall() }
+Get-WmiObject -Class Win32_Product -Filter "Name = 'Program_Adı'" | ForEach-Object { $_.Uninstall() }
 
 
 YADA
